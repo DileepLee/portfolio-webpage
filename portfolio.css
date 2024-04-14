@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.head{
+    width: 60px;
+    height: 70px;
+    border-width: 3px;
+    border-color: #4b6cc1;
+    border-style: solid;
+    padding-top: 9px;
+    font-size: 40px;
+    padding-left: 15px;
+    position: relative;
+    display: block;
+    left: 10px;
+    margin-top: 5px;
+
+}
+.head:hover {
+    width: 60px;
+    height: 70px;
+    border-width: 3px;
+    border-color: #900000;
+    border-style: solid;
+    font-size: 40px;
+    padding-top: 9px;
+    padding-left: 15px;
+    color: #d4cece;
+    display: block;
+
+}
+.leephara{
+    position: absolute;
+    top: 0;
+    font-size: 40px;
+    left: 0;
+    margin: 16px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family:monospace;
+    opacity: 0;
+}
+
+.leephara:hover{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50px;
+    font-size: 40px;
+    color: #900000;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    transition: left 1.9s ease; 
+    opacity: 1;
+}
+.nav-link:hover{
+    color: #1a222a;
+}
+.text {
+    color: #a3acb6;
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 70px;
+}
+
+.para {
+    color: #9aa5b1;
+    font-size: 26px;
+    padding-top: 20px;
+
+}
+.para:hover {
+    color: #878181;
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.span {
+    color: #4b6cc1;
+    font-size: 70px;
+}
+.span:hover {
+    color: #435ea3;
+    font-size: 70px;
+}
+
+.image {
+    width: 350px;
+    height: 350px;
+}
+
+.background {
+    background-color: #191a1d;
+    height: 100vh;
+}
+
+.button1 {
+    width: 190px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #3682c1;
+    border-radius: 12px;
+    font-size: 25px;
+    border-width: 0px;
+    margin-top: 15px;
+    
+}
+
+.button1:hover{
+    width: 190px;
+    height: 60px;
+    color: #ecdcdc;
+    background-color: #25cfb0;
+    border-radius: 12px;
+    font-size: 25px;
+    border-width: 0px;
+    margin-top: 15px;
+    transition: background-color 1.5s ease;
+    transform: scale(0.9);
+}
+
+.image:hover{
+    transform: rotateY(360deg);
+    transition: 5.5s ease;
+
+}
